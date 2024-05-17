@@ -1,0 +1,662 @@
+@media(max-width: 575px){
+    .dropdown_arrow > a::before {
+        top: 0;
+    }
+   #exampleModal11 .modal-dialog {
+        max-width: 100% !important;
+    }
+    .forgotpswd {
+        width: 100% !important;
+        margin: 0 auto;
+    }
+    .registerpg .contact_form {
+        width: 100%;
+    }
+    label.form-check-label {
+        margin-bottom: 20px;
+    }
+    .loginsec .successpage {
+        width: 100%;
+        padding: 30px;
+    }
+    .br_right {
+        border-left: 0;
+        border-top: 1px solid #ececec;
+        margin-top: 0 !important;
+    }
+    .change_password input {
+        margin-bottom: 10px!important;
+    }
+    .paayment_table tr td {
+        white-space: nowrap;
+    }
+    
+    
+    .iframesec iframe {
+        width: 100%;
+        height: 200px;
+    }
+    .iframesec {
+        margin-bottom: 20px !important;
+    }
+    .partnerlogo {
+        margin-bottom: 15px;
+    }
+    .arrow {
+        width: 50px;
+        height: 50px;
+        font-size: 22px;
+        margin-top: -10px;
+      }
+    .payment_metod {
+        padding: 40px 20px;
+    }
+    .dark_text {
+        font-size: 16px;
+    }
+    .donation_wrapper label {
+        font-size: 14px;
+    }
+    .points_left{
+        display: block;
+    }
+    .donation_left {
+        margin-right: 0;
+    }
+    #donation_content {
+        background: #fff;
+        padding: 60px 10px;
+    }
+    .hide_text {
+        display: block;
+      }
+    #simchas #pills-tab .nav-link {
+        font-size: 14px;
+    }
+    .reward_right {
+        display: none;
+    }
+    #reward_points::after{
+        display: none;
+    }
+    .reward_image {
+        margin-top: 20px;
+        padding: 0;
+        text-align: left;
+    }
+    .reward_image h4 {
+        margin-top: 0;
+    }
+    .reward_image img {
+        border-radius: 0;
+        height: 150px;
+        margin-bottom: 20px;
+    }
+    #reward_points::before{
+        display: none;
+    }
+    .simcha_point br {
+        display: none;
+    }
+    .static {
+        width: unset;
+        padding-top: 100px;
+    }
+    footer {
+        padding: 30px 0px 85px;
+    }
+    #button {
+        width: 40px;
+        height: 40px;
+        bottom: 100px;
+        font-size: 20px;
+    }
+    .mobile_section {
+        display: flex;
+      }
+      .mobile_section button img {
+        width: 20px;
+    }
+    .breadcrum{
+        display: none;
+    }
+    #appreciation ul li img {
+        width: 40px;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    #appreciation ul li {
+        padding: 30px;
+        display: block;
+    }
+    .common_paragraph p {
+        font-size: 16px;
+        line-height: 27px;
+    }  
+    .static {
+        width: unset;
+    }
+    .owl-slide-subtitle {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .owl-slide-title {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .width-80 {
+        width: unset;
+    }
+    .answer_text {
+        width: 100%;
+        padding: 15px 15px;
+    }
+    .question_text {
+        width: 100%;
+        padding: 15px 15px;
+    }
+    .points_left ul li h6 {
+        font-size: 16px;
+    }
+    .points_right {
+        height: unset;
+        margin-top: 20px;
+    }
+    .text_centre h4 {
+        width: unset;
+    }
+    .common_title {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .text_centre h6 {
+        font-size: 16px;
+        margin: 15px auto;
+    }
+    .image_name h6 {
+        font-size: 16px;
+    }
+    .gallery_wrap {
+        height: unset;
+    }
+    .yes_points {
+        width: unset;
+    }
+    .yes_points h5 {
+        font-size: 22px;
+    }
+    .simcha_point {
+        width: unset;
+    }
+    .simcha_point h4 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .simcha_point h6 {
+        font-size: 16px;
+    }
+    .ftr_menu {
+        margin-top: 20px;
+        display: grid;
+    }
+    .ftr_contact {
+        display: block;
+        margin-top: 25px;
+    }
+    .ftr_mail {
+        margin-top: 20px;
+    }
+    .ftr_menu a {
+        margin: 5px 0px;
+    }
+    .nav_btn{
+        display: none;
+    }
+    .logo {
+        height: 100px;
+    }
+    .common_hheading {
+        font-size: 20px;
+    }
+    .simcha_title {
+        width: unset;
+    }
+    .upcoming_simcha_table table tr th {
+        white-space: nowrap;
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+    .upcoming_simcha_table table tr td {
+        white-space: nowrap;
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+    .donate {
+        padding: 5px 20px;
+        font-size: 14px;
+    }
+    .popup_btn {
+        padding: 5px 20px;
+        font-size: 14px;
+    }
+    #strip h6 {
+        font-size: 24px;
+        width: unset;
+    }
+    .common_btn {
+        font-size: 15px;
+        padding: 8px 20px;
+    }
+    .contact_form {
+        background: #fff;
+        padding: 30px 20px;
+        margin-left: 0;
+    }
+    .contact_icon {
+        min-width: 35px;
+        height: 35px;
+        font-size: 24px;
+    }
+.common_paragraph ul li {
+    font-size: 16px;
+}
+.reward_left ul li::after {
+    width: 13px;
+    height: 13px;
+    top: 8px;
+}
+.reward_right img {
+    border-radius: 0;
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+    margin-top: 20px;
+}
+#strip h5 {
+    font-size: 20px;
+    line-height: 28px;
+    width: unset;
+}
+}
+@media (min-width: 576px) and (max-width: 767px){
+    .registerpg .contact_form {
+        width: 100%;
+    }
+    label.form-check-label {
+        margin-bottom: 20px;
+    }
+    .loginsec .successpage {
+        width: 100%;
+        padding: 30px;
+    }
+    .br_right {
+        border-left: 0;
+        border-top: 1px solid #ececec;
+        margin-top: 0 !important;
+    }
+    .change_password input {
+        margin-bottom: 10px!important;
+    }
+    .paayment_table tr td {
+        white-space: nowrap;
+    }
+.iframesec iframe {
+    width: 100%;
+    height: 290px;
+}
+    .iframesec {
+        margin-bottom: 20px !important;
+    }
+    .partnerlogo {
+        margin-bottom: 15px;
+    }
+    .donation_left {
+        margin-right: 0;
+    }
+    .hide_text {
+        display: block;
+      }
+    #simchas #pills-tab .nav-link {
+        font-size: 14px;
+    }
+    .reward_right {
+        display: none;
+    }
+    #reward_points::after{
+        display: none;
+    }
+    .reward_image {
+        margin-top: 20px;
+        padding: 0;
+        text-align: left;
+    }
+    .reward_image h4 {
+        margin-top: 0;
+    }
+    .reward_image img {
+        border-radius: 0;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+    .donation_wrapper label {
+        font-size: 14px;
+    }
+    #reward_points::before{
+        display: none;
+    }
+    .simcha_point br {
+        display: none;
+    }
+    .static {
+        width: unset;
+        padding-top: 100px;
+    }
+    footer {
+        padding: 30px 0px 85px;
+    }
+    #button {
+        width: 40px;
+        height: 40px;
+        bottom: 100px;
+        font-size: 20px;
+    }
+    .mobile_section {
+        display: flex;
+      }
+      .mobile_section button img {
+        width: 20px;
+    }
+    .breadcrum{
+        display: none;
+    }
+    #appreciation ul li img {
+        width: 40px;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    #appreciation ul li {
+        padding: 30px;
+        display: block;
+    }
+    .common_paragraph p {
+        font-size: 16px;
+        line-height: 27px;
+    }  
+    .static {
+        width: 400px;
+    }
+    .owl-carousel .owl-slide {
+        height: 55vh;
+    }
+    header{
+        height: 55vh;
+    }
+    .points_left {
+        display: block;
+    }
+    .owl-slide-subtitle {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .owl-slide-title {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .width-80 {
+        width: unset;
+    }
+    .ftr_left p {
+        font-size: 18px;
+    }
+    .points_left ul li h6 {
+        font-size: 16px;
+    }
+    .points_right {
+        height: unset;
+        margin-top: 20px;
+    }
+    .text_centre h4 {
+        width: unset;
+    }
+    .common_title {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .text_centre h6 {
+        font-size: 16px;
+        margin: 15px auto;
+    }
+    .image_name h6 {
+        font-size: 16px;
+    }
+    .gallery_wrap {
+        height: unset;
+    }
+    .yes_points {
+        width: unset;
+    }
+    .yes_points h5 {
+        font-size: 22px;
+    }
+    .simcha_point {
+        width: unset;
+    }
+    .simcha_point h4 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .simcha_point h6 {
+        font-size: 16px;
+    }
+    .ftr_menu {
+        margin-top: 20px;
+        display: grid;
+    }
+    .ftr_contact {
+        display: block;
+        margin-top: 25px;
+    }
+    .ftr_mail {
+        margin-top: 20px;
+    }
+    .ftr_menu a {
+        margin: 5px 0px;
+    }
+    .nav_btn{
+        display: none;
+    }
+    .logo {
+        height: 100px;
+    }
+    .common_hheading {
+        font-size: 20px;
+    }
+    .simcha_title {
+        width: unset;
+    }
+    .upcoming_simcha_table table tr th {
+        white-space: nowrap;
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+    .upcoming_simcha_table table tr td {
+        white-space: nowrap;
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+    .donate {
+        padding: 5px 20px;
+        font-size: 14px;
+    }
+    .popup_btn {
+        padding: 5px 20px;
+        font-size: 14px;
+    }
+    #strip h6 {
+        font-size: 24px;
+        width: unset;
+    }
+    .common_btn {
+        font-size: 15px;
+        padding: 8px 20px;
+    }
+    .contact_form {
+        background: #fff;
+        padding: 30px 20px;
+        margin-left: 0;
+    }
+    .contact_icon {
+        min-width: 35px;
+        height: 35px;
+        font-size: 24px;
+    }
+.common_paragraph ul li {
+    font-size: 15px;
+}
+.reward_left ul li::after {
+    width: 13px;
+    height: 13px;
+    top: 8px;
+}
+.reward_right img {
+    border-radius: 0;
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+    margin-top: 20px;
+}
+#strip h5 {
+    font-size: 20px;
+    line-height: 28px;
+    width: unset;
+}
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .donation_left {
+        margin-right: 20px;
+    }
+    .mobile_section {
+        display: flex;
+    }
+    .mobile_section button img {
+        width: 20px;
+    }
+    .nav_btn {
+        display: none;
+    }
+    .ftr_contact {
+        margin-top: 20px;
+        justify-content: space-around;
+    }
+    .ftr_menu {
+        margin-top: 20px;
+    }
+    footer {
+        padding: 30px 0px 100px;
+    }
+    .owl-carousel .owl-slide {
+        height: 75vh;
+    }
+    header {
+        height: 75vh;
+    }
+    .points_left {
+        display: block;
+        margin-bottom: 20px;
+    }
+    .yes_points {
+        width: unset;
+    }
+    .yes_points h5 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    .simcha_point h4 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    #button {
+        bottom: 100px;
+    }
+    .static {
+        padding-top: 120px;
+    }
+    .width-80 {
+        width: unset;
+    }
+    .common_title {
+        font-size: 34px;
+        line-height: 44px;
+    }
+    .reward_image {
+        padding: 0;
+    }
+    #strip h5 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .contact_form {
+        margin-left: 0;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    .nav-links li a {
+        padding: 0 15px;
+    }
+    .width-80 {
+        width: unset;
+    }
+    .points_left ul li h6 {
+        font-size: 16px;
+    }
+}
+@media (min-width: 1600px)  and (max-width: 1899px){
+    .owl-slide-title {
+        font-size: 54px;
+        line-height: 62px;
+    }
+    .owl-slide-subtitle{
+        font-size: 54px;
+        line-height: 62px; 
+    }
+    .static {
+        width: 720px;
+    }
+    header {
+        height: 40vh;
+    }
+    .owl-carousel .owl-slide {
+        height: 40vh;
+      }
+      .points_right {
+        height: 450px;
+    }
+    .gallery_wrap {
+        height: 280px;
+    }
+    .common_title {
+        font-size: 44px;
+    }
+    .text_centre h4 {
+        width: 630px;
+    }
+    .text_centre h6 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .simcha_title {
+        width: 470px;
+    }
+}
+
+@media (min-width: 1900px) {
+    .reward_left h4, .reward_right h4 {
+    font-size: 28px;
+}
+}
+
+@media (min-width: 971px) {
+    .mobilelogout{
+        display: none!important;
+    }
+}

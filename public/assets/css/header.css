@@ -1,0 +1,232 @@
+.cover {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  header {
+    height: 60vh;
+}
+  .owl-carousel .owl-slide {
+    position: relative;
+    height: 60vh;
+  }
+  .cover1 {
+    background: #05aeb5cc;
+}
+.cover1 h2 {
+  color: #ffffffcc;
+}
+.cover2{
+  background: #ffb612bf;
+}
+.cover2 h2 {
+color: #ffffffcc;
+}
+  .cover3 {
+    background: #70b2b3;
+}
+.cover3 h2 {
+  color: #ffffff;
+}
+  .cover4 {
+    background: #e09b3d;
+}
+.cover4 h2 {
+  color: #ffffff;
+}
+.owl-slide-title {
+  transform: translateX(20px);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.05s;
+  color: #05AEB5;
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 48px;
+}
+.owl-slide-subtitle {
+    color: #314C5F;
+    font-size: 38px;
+  font-weight: 500;
+  margin: 0;
+  line-height: 48px;
+}
+  .owl-carousel .owl-slide-animated.is-transitioned {
+    transform: none;
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.5s;
+  }
+  
+  .owl-carousel .owl-slide-title.is-transitioned {
+    transition-delay: 0.2s;
+  }
+  
+  .owl-carousel .owl-slide-subtitle.is-transitioned {
+    transition-delay: 0.35s;
+  }
+  
+  .owl-carousel .owl-slide-cta.is-transitioned {
+    transition-delay: 0.5s;
+  }
+  
+  .owl-carousel .owl-dots,
+  .owl-carousel .owl-nav {
+    position: absolute;
+  }
+  
+  .owl-carousel .owl-dots .owl-dot,
+  .owl-carousel .owl-nav [class*="owl-"]:focus {
+    outline: none;
+  }
+  
+  .owl-carousel .owl-dots .owl-dot span {
+    background: transparent;
+    border: 1px solid var(--main-black-color);
+    transition: all 0.2s ease;
+  }
+  
+  .owl-carousel .owl-dots .owl-dot:hover span,
+  .owl-carousel .owl-dots .owl-dot.active span {
+    background: var(--main-black-color);
+  }
+  
+  .owl-carousel .owl-nav {
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%);
+    margin: 0;
+  }
+  
+  .owl-carousel .owl-nav svg {
+    opacity: 0.3;
+    transition: opacity 0.3s;
+  }
+  
+  .owl-carousel .owl-nav button:hover svg {
+    opacity: 1;
+  }
+  
+  .owl-carousel .owl-nav [class*="owl-"]:hover {
+    background: transparent;
+  }
+  @media screen and (max-width: 575px) {
+    .owl-carousel .owl-nav {
+      top: 5%;
+    }
+    
+    .owl-carousel .owl-nav svg {
+      width: 24px;
+      height: 24px;
+    }
+  }
+  .static {
+    width: 550px;
+    text-align: left;
+    margin: auto;
+    padding-top: 80px;
+}
+/* #common_header {
+    height: 250px;
+    display: flex;
+    align-items: end;
+    padding-bottom: 25px;
+    background: #CDEFF0;
+} */
+#common_header {
+  height: 230px;
+  display: flex;
+  align-items: end;
+  padding-bottom: 25px;
+  background: #1b4650;
+}
+#common_header1 {
+    height: 150px;
+    display: flex;
+    align-items: end;
+    background: #1b4650;
+}
+/* .common_hheading {
+    color: #05AEB5;
+    font-size: 32px;
+    margin: 0;
+    font-weight: 300;
+} */
+.common_hheading {
+  color: #ffffff;
+  font-size: 28px;
+  margin: 0;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#common_header .container {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+/* .breadcrum a {
+    color: #314C5F;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 14px;
+    opacity: .5;
+} */
+.breadcrum a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 14px;
+  opacity: .5;
+  font-weight: 300;
+}
+.breadcrum{
+    display: flex;
+    align-items: center;
+}
+.breadcrum .active{
+    opacity: 1;
+}
+.breadcrum iconify-icon {
+    margin: 0 5px;
+    font-size: 20px;
+    opacity: .5;
+    color: #fff;
+}
+.arrow {
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  background: #f0f4f5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  margin-top: -20px;
+  z-index: 9;
+  position: relative;
+  overflow: hidden;
+  color: #70b2b3;
+  text-decoration: none;
+}
+.arrow:hover{
+  color: #70b2b3;
+}
+.bounce iconify-icon {
+  animation: bounce 2s infinite;
+}
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}

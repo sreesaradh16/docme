@@ -1,0 +1,391 @@
+.brand-link .brand-image {
+    width: 110px;
+    margin: 2px 0;
+    filter: brightness(0) invert(1);
+    object-fit: contain;
+    max-height: 60px !important;
+    height: 60px;
+}
+.userpanel1 .image {
+    padding-left: 0;
+    padding-right: 0.8rem;
+}
+.userpanel1 .image img {
+    width: 45px;
+    height: 45px;
+}
+.logout1 {
+    background: #f7b61e;
+    color: #000;
+    border: none;
+    font-size: 12px;
+    padding: 0px 6px;
+}
+.form-control-sidebar::placeholder {
+    color: #ffffff8c!important;
+}
+.btn-sidebar:hover {
+    color: #fff!important;
+}
+.nav-sidebar>.nav-item .nav-icon {
+    margin-left: 0;
+    font-size: 1.2rem;
+    margin-right: 15px;
+    /* text-align: center; */
+    width: unset;
+}
+
+.btn-info {
+    background: #f7b61e!important;
+    border-color: #f7b61e!important;
+}
+.dataTables_wrapper td.actions{
+    display: flex;
+}
+.dataTables_wrapper td:last-child a,.dataTables_wrapper td:last-child button {
+    border: 1px solid #ececec;
+    margin: 0 3px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.dataTables_wrapper th:last-child {
+    width: 140px;
+}
+.view {
+    background: #8CC28F;
+    color: #2a1f1f;
+}
+.edit {
+    background: #7DA3CA;
+    color: #2a1f1f;
+}
+.status-inactive {
+    background: #7FCCE4;
+    color: #2a1f1f;
+}
+.delete {
+    background-color: #E14741;
+    color: #000;
+}
+.card{
+    box-shadow: none!important;
+}
+.card-body {
+    background: #fff;
+    border-radius: 10px;
+}
+.positionText {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.breadcrumb-item a {
+    color: #000000;
+    text-decoration: none;
+}
+.nav-treeview .nav-item a {
+    font-size: 15px;
+}
+.nav-treeview .nav-item a i {
+    margin-right: 8px !important;
+}
+
+
+
+.searchlist {
+    display: flex;
+    align-items: center;
+    border: 1px solid #e9e0e0;
+    padding: 10px;
+    border-radius: 5px;
+    background: #fff;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.searchlist_cnt h5 {
+    font-size: 16px;
+    margin: 0 0px 5px 0;
+}
+.searchlist_cnt p{
+    font-size: 13px;
+    margin: 0;
+}
+.searchlist button {
+    background: #f7b61e;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.searchlist_cnt {
+    padding-right: 15px;
+}
+.nav-sidebar .nav-item>.nav-link {
+    font-size: 14px!important;
+}
+
+/*order*/
+.mainheading {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.ordernotes_wrapper {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.ordernotes_wrapper li {
+    background: #efefef;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.ordernotes_wrapper li .ordernotes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ordertime {
+    font-size: 12px;
+    color: #8f8f8f;
+}
+.ordernotes_msg p {
+    margin: 0;
+    font-size: 15px;
+}
+.ordernotes button {
+    border: none;
+    background: transparent;
+}
+.ordernotes button iconify-icon{
+    color: red;
+}
+.orderrate {
+    margin-top: 30px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.orderrate ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 40%;
+}
+.orderrate ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.orderrate ul li h4 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+.orderrate ul li p {
+    margin: 0;
+}
+.orderrate ul li:last-child {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+.orderrate ul li:last-child h4 {
+    font-weight: 600;
+    font-size: 18px;
+}
+.orderrate ul li:last-child p {
+    font-weight: 600;
+    font-size: 18px;
+}
+.refundbtn {
+    background: #f7b61e;
+    text-decoration: none;
+    color: #000;
+    padding: 4px 10px;
+}
+.orderhead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.orderhead h4 {
+    font-size: 18px;
+}
+.orderhead button {
+    border: none;
+    background: transparent;
+    color: #7b7b7b;
+    font-size: 19px;
+}
+.order_addr p {
+    margin-bottom: 7px;
+    font-size: 13px;
+}
+.order_contact h4 {
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+.order_contact {
+    margin-top: 25px;
+}
+.order_contact a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+}
+.general_det ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.general_det h4 {
+    font-size: 18px;
+}
+.general_det label {
+    font-weight: 400 !important;
+    font-size: 14px;
+    color: #777777;
+}
+.modal-body .form-group label {
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0 0 5px;
+}
+.modal-body .form-group  .form-control {
+    font-size: 14px;
+}
+.modal-body .form-group  .form-select {
+    font-size: 14px;
+}
+.order_detailtable .delete {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 7px;
+    border-radius: 4px;
+}
+/**/
+
+.resultWrap img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.page-item.active .page-link {
+    z-index: 3;
+    color: #000;
+    background-color: #f7b61e;
+    border-color: #f7b61e;
+}
+.btn-primary {
+    background: #f7b61e!important;
+    border-color: #f7b61e!important;
+    color: #000!important;
+    border-radius: 0!important;
+}
+
+/*delete alert style*/
+.alertIcon {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.alertIcon iconify-icon {
+    color: red;
+    font-size: 50px;
+}
+.alertBox p {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+}
+.alertBtn .finalDelete {
+    background: #f7b61e;
+    border: none;
+    padding: 6px 18px;
+}
+.alertBtn button{
+    margin: 0 5px;
+}
+.alertBtn {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.alertBtn  .cancel {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 6px 18px;
+}
+.alertBtn form{
+    margin: 0;
+}
+
+ul.commonadd {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.commonadd li {
+    display: flex;
+    border-bottom: 1px solid #ececec;
+    margin-bottom: 15px;
+}
+.commonadd li .radiobtnsec {
+    margin-right: 15px;
+}
+
+.commonadd li .radiobtnsec input{
+    cursor: pointer;
+}
+/**/
+
+.nav-sidebar>.nav-item .nav-icon {
+    width: 28px;
+    text-align: left;
+    margin-right: 0;
+}
+.filtersec {
+    margin-bottom: 30px;
+}
+.filtersec label {
+    text-align: left;
+    width: 100%;
+}
+.form-control:focus {
+    border-color: none!important;
+    outline: 0;
+    box-shadow: none!important;
+}
+.filterbtn .btn.btn-info {
+    border-radius: 0;
+    margin-left: 5px;
+}
+
+.totaldonation {
+    display: block;
+    border: 1px solid;
+    width: 270px;
+    margin: 0 auto;
+    text-align: center;
+}
+.totaldonation h4 {
+    background: #f7b61e;
+    color: #000;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+.totaldonation p {
+    margin-bottom: 0;
+    font-size: 30px;
+    font-weight: 700;
+}

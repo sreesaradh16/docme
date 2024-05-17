@@ -1,0 +1,133 @@
+
+body , html{
+    font-family: 'Mulish', sans-serif;
+}
+
+/* .brand-image{
+    filter: grayscale(1) invert(1);
+} */
+.shadow{
+    box-shadow: 0 0 1px rgba(0,0,0,.125), 0 1px 3px rgba(0,0,0,.2);
+}
+.box{
+    background: #fff;
+}
+.leftwrap h6 {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.leftwrap h5 {
+    font-size: 18px;
+}
+.leftwrap h5 span{
+    font-size: 20px;
+    font-weight: 800;
+}
+.box p {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+.box p iconify-icon{
+    margin-right: 2px;
+
+}
+.box p span{
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    margin-right: 2px;
+}
+.increase span {
+    color: #30c736;
+}
+.icon {
+    min-width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+    font-size: 28px;
+}
+.project-icon{
+    background: #2db56124;
+    color: #2db561;
+}
+.rounded {
+    border-radius: 0.25rem;
+}
+.task-icon {
+    color: #e42f57;
+    background: #e42f571f;
+}
+.decrease span{
+    color: #e42f57;
+}
+.resourses-icon {
+    color: #66aae5;
+    background: #66aae530;
+}
+.requirement-icon {
+    color: #328f32e3;
+    background: #9cf17530;
+}
+.product-icon {
+    color: #d18a05;
+    background: #daba0a24;
+}
+.manufacturer-icon {
+    color: #9705d1;
+    background: #e548fa24;
+}
+.customer-icon {
+    color: #05c3d1;
+    background: #37baee24;
+}
+.time-icon {
+    color: #d5b500;
+    background: #d5b50024;
+}
+.card-title {
+    font-size: 18px;
+    font-weight: 700;
+}
+.dashboard-header {
+    padding: 1.25rem 1.25rem;
+}
+/* .main-sidebar{
+    background-color: #143e6a;
+} */
+.nav-pills .nav-link {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+.brand-link{
+    color: #fff;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #143e6a;
+    background-color: #ffffff;
+} 
+.nav-link:hover{
+    color: #fff;
+}
+.table a {
+    text-decoration: none;
+    color: #000;
+}
+
+.dashboard-table tbody tr:hover {
+    background: #143e6a24;
+}
+.nav-pills .nav-link:hover {
+    color: #ffffff!important;
+    background-color: #ffffff62;
+}
+#wrapper {
+    float: right;
+    font-size: 14px;
+    font-weight: 900;
+}
